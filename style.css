@@ -1,0 +1,121 @@
+body{
+    background-color:#F3EFE6;
+    color:#282828;
+    font-family:Arial,sans-serif;
+    margin:20px:
+}
+h1{
+    color:#52634D;
+    text-align:center;
+}
+nav{
+    background-color:#52634D;
+    padding:15px;
+    text-align:center;
+    border-radius:8px;
+}
+nav a{
+     colo:white;
+    text-decoration: none;
+    margin:15px;
+    font-size:16px;
+}
+nav a: hover {
+    color:#E8CFC3;
+}
+#home{
+    text-align:center;
+     padding:60px20px;
+     background-color:#E8CFC3;
+     border-radius:12px;
+     margin:20px;
+}
+#home h1 {
+     font-size:38px;
+     color:#52634D;
+}
+#home p{
+    font-size:18px:
+    color:#282828:
+}
+#collection{
+    text-align:center;
+    pedding:40px20px;
+    margin:20px;
+    background-color:white;
+    border-radius:30px;
+}
+#collection h2{
+    color:#52634D;
+   font-size:30px;
+}
+#collection h3{
+    color:#52634D;
+}    
+#about{
+    background-color:#F3EFE6;
+    padding:35px20px;
+    margin-top:20px;
+    text-align:center;
+    border-radius:12px;
+}
+#about h2{
+    color:#52634D;
+    font-size:28px;
+}
+#about p{
+    font-size:17px;
+    line-height:1.8;
+}
+#contact{
+    background-color:#E8CFC3;
+    padding:35px20px
+    margin-top:20px;
+    text-align:center;
+    border-radius:12px;
+}
+#contact h2{
+    color:#52634D   
+    font-size:28px;
+}
+#contact p{
+    font-size:16px;
+    line-height:1.8;
+} 
+footer{
+    background-color:#52634D;
+    color:white;
+    text-align:center;
+    padding:15px; 
+    margin-top:20px;
+    boarder-radius:
+}
+.product-card{
+    background-color:#F3EFE6;
+    padding:20px;
+    margin:15px auto;
+    max-width:300px;
+    border-radius:12px;
+    border:1px solid #52634D;
+}
+.product-card img{
+    width:100;
+    max-width:250px;
+    height:auto;
+    border-radius:10px;
+}
+@media(max-width:600px){
+    body{
+        margin:10px;
+}
+nav a{
+    display:inline-block;
+    margin:5px;
+}
+h1{
+    font-size:28px;
+}
+.product_card{
+    width:90%;
+  }
+}
